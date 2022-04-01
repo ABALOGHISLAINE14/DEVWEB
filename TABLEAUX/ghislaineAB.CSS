@@ -1,0 +1,4 @@
+table,td,th{border: solid blue;
+border-spacing: 0px;
+border-width: 1px;}
+thead{background: yellow;}

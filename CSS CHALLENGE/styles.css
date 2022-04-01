@@ -1,0 +1,53 @@
+body{
+    margin: 0%;
+    width: 1000px;
+}
+.ghis{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr) ;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px 10px;
+    height: 1000px;
+}
+.un{
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: red;
+}
+.deux{
+    grid-column-start: 3;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: blue;
+}
+.trois{
+    grid-column-start: 3;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    background-color: antiquewhite;
+}
+.quatre{
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    background-color: aqua;
+}
+.cinq{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 9;
+    background-color: green;
+    }
+    .six{
+        grid-column-start: 9;
+        grid-column-end: 11;
+        grid-row-start: 3;
+        grid-row-end: 9;
+        background-color: yellow;
+    }
