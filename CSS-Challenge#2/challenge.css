@@ -1,0 +1,29 @@
+body{
+    background-color: #F3AC3C;
+    margin: 200px auto;
+    margin-left: 200px;
+}
+.grand{
+    width: 200px;
+    height: 200px;
+    background-color: #1A4341;
+    margin:auto;
+    position: relative;
+    bottom: 0px;
+}
+.moyen{
+    width: 100px;
+    height: 100px;
+    background-color: #998235;
+    margin-left: 50px;
+    position: absolute;
+    bottom: 0px;
+}
+.petit{
+    width: 50px;
+    height: 50px;
+    background-color: #F3AC3C;
+    margin-left: 25px;
+    position: absolute;
+    bottom: 0px;
+}
